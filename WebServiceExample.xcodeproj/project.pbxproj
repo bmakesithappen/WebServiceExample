@@ -15,6 +15,12 @@
 		DE5F50F21F96CE3700E21919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F50F01F96CE3700E21919 /* LaunchScreen.storyboard */; };
 		DE5F50FD1F96CE3700E21919 /* WebServiceExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F50FC1F96CE3700E21919 /* WebServiceExampleTests.swift */; };
 		DE5F51081F96CE3700E21919 /* WebServiceExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F51071F96CE3700E21919 /* WebServiceExampleUITests.swift */; };
+		DE80E6D21F99698F000B192A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F511B1F97BE4F00E21919 /* AFHTTPSessionManager.m */; };
+		DE80E6D31F99699A000B192A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F511E1F97BE4F00E21919 /* AFNetworkReachabilityManager.m */; };
+		DE80E6D41F99699F000B192A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F51201F97BE4F00E21919 /* AFSecurityPolicy.m */; };
+		DE80E6D51F9969A2000B192A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F51221F97BE4F00E21919 /* AFURLRequestSerialization.m */; };
+		DE80E6D61F9969A5000B192A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F51241F97BE4F00E21919 /* AFURLResponseSerialization.m */; };
+		DE80E6D71F9969A8000B192A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F51261F97BE4F00E21919 /* AFURLSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,9 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE80E6D71F9969A8000B192A /* AFURLSessionManager.m in Sources */,
 				DE5F50E71F96CE3700E21919 /* ViewController.swift in Sources */,
 				DE5F50E51F96CE3700E21919 /* AppDelegate.swift in Sources */,
+				DE80E6D31F99699A000B192A /* AFNetworkReachabilityManager.m in Sources */,
 				DE5F50ED1F96CE3700E21919 /* WebServiceExample.xcdatamodeld in Sources */,
+				DE80E6D41F99699F000B192A /* AFSecurityPolicy.m in Sources */,
+				DE80E6D51F9969A2000B192A /* AFURLRequestSerialization.m in Sources */,
+				DE80E6D61F9969A5000B192A /* AFURLResponseSerialization.m in Sources */,
+				DE80E6D21F99698F000B192A /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

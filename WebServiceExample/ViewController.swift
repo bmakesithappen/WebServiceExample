@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // TODO: Replace the appid code with the "API Key"  , Update Info.plist Unit4 Lesson2 Calling Web Service  , try challenge listed end of Unit4 Lesson 2 
+   // API Key 883f34fa10bc4cf6dcf044fae47008ad
+  // TODO: Add SwiftyJSON https://github.com/SwiftyJSON/SwiftyJSON
     
     @IBOutlet weak var forecastLabel: UILabel!
     
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
         
         let manager = AFHTTPSessionManager()
         
-        manager.get("http://api.openweathermap.org/data/2.5/forecast/daily?q=London&mode=json&units=metric&cnt=1&appid=2de143494c0b295cca9337e1e96b00e0",
+        manager.get("http://api.openweathermap.org/data/2.5/weather?q=London&mode=json&units=metric&cnt=1&appid=883f34fa10bc4cf6dcf044fae47008ad",
                     parameters: nil,
                     progress: nil,
                     success: { (operation: URLSessionDataTask, responseObject:Any?) in
