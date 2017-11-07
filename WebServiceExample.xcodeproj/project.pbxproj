@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0DDAB71FB26E0500D85FC9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DDAB61FB26E0500D85FC9 /* SwiftyJSON.swift */; };
 		DE5F50E51F96CE3700E21919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F50E41F96CE3700E21919 /* AppDelegate.swift */; };
 		DE5F50E71F96CE3700E21919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F50E61F96CE3700E21919 /* ViewController.swift */; };
 		DE5F50EA1F96CE3700E21919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F50E81F96CE3700E21919 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0DDAB61FB26E0500D85FC9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		DE5F50E11F96CE3700E21919 /* WebServiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5F50E41F96CE3700E21919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5F50E61F96CE3700E21919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		DE5F50E31F96CE3700E21919 /* WebServiceExample */ = {
 			isa = PBXGroup;
 			children = (
+				DE0DDAB61FB26E0500D85FC9 /* SwiftyJSON.swift */,
 				DE5F50E41F96CE3700E21919 /* AppDelegate.swift */,
 				DE5F50E61F96CE3700E21919 /* ViewController.swift */,
 				DE5F50E81F96CE3700E21919 /* Main.storyboard */,
@@ -307,6 +310,7 @@
 				DE80E6D71F9969A8000B192A /* AFURLSessionManager.m in Sources */,
 				DE5F50E71F96CE3700E21919 /* ViewController.swift in Sources */,
 				DE5F50E51F96CE3700E21919 /* AppDelegate.swift in Sources */,
+				DE0DDAB71FB26E0500D85FC9 /* SwiftyJSON.swift in Sources */,
 				DE80E6D31F99699A000B192A /* AFNetworkReachabilityManager.m in Sources */,
 				DE5F50ED1F96CE3700E21919 /* WebServiceExample.xcdatamodeld in Sources */,
 				DE80E6D41F99699F000B192A /* AFSecurityPolicy.m in Sources */,

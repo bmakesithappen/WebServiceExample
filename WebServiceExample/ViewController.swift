@@ -30,13 +30,18 @@ class ViewController: UIViewController {
                 if let responseObject = responseObject {
                     print("Response: " + (responseObject as AnyObject).description)
                 }
-                if let weatherList = (responseObject as AnyObject)["weather"] as? [AnyObject] {
-                    if let weather = weatherList[0] as? [String:AnyObject] {
-                        if let forecast = weather["description"] as? String {
-                            self.forecastLabel.text = forecast
-                        }
-                    }
+                let json = JSON(responseObject)
+                if let forecast = json["weather"][0]["description"].string {
+                    self.forecastLabel.text = forecast
                 }
+                // Here is the code without using Swifty: 
+//                if let weatherList = (responseObject as AnyObject)["weather"] as? [AnyObject] {
+//                    if let weather = weatherList[0] as? [String:AnyObject] {
+//                        if let forecast = weather["description"] as? String {
+//                            self.forecastLabel.text = forecast
+//                        }
+//                    }
+//                }
         }) { (operation:URLSessionDataTask?, error:Error) in
             print("Error: " + error.localizedDescription)
         }
